@@ -1,3 +1,5 @@
+
+
 .container-1 {
     display: flex;
     align-items: center;
@@ -53,12 +55,52 @@
     font-size: 48px;
     color: white;
     font-weight: bold;
+    font-family: sans-serif;
     padding: 5px;
 }
 
 .item-2dot2 {
     border: 1px;
     font-size: 18px;
+    font-family: sans-serif;
     color: #E5E7EB;
     padding: 5px;
+}
+
+.container-4 {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 557px;
+}
+
+.item-4dot1 {
+    flex-direction: row;
+    border: 1px white solid;
+}
+
+.container-5 {
+    display: flex;
+    flex-direction: row;
+    border: 1px white solid;
+}
+
+.item-5dot1, .item-5dot2, .item-5dot3, .item-5dot4 {
+
+   font-family: sans-serif; 
+   margin-inline-start: 84px; 
+   border: 1px white solid;
+   border-width: 20px;
+   padding: 2px;
+   flex-basis: 140px;
+   margin-right: 42px;
+    
+}
+
+.item-4dot2, .item-4dot3, .item-4dot4, .item-4dot5 {
+    border: 6px rgb(96, 96, 253) solid;
+    border-radius: 7px;
+    margin-right: 53px;
 }
